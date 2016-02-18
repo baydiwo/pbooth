@@ -1,0 +1,22 @@
+{
+  "name": "pbooth",
+  "version": "1.0.0",
+  "description": "Auto print photo from Instagram Project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baydiwo/pbooth.git"
+  },
+  "author": "RGB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baydiwo/pbooth/issues"
+  },
+  "homepage": "https://github.com/baydiwo/pbooth#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
