@@ -1,0 +1,223 @@
+@mixin md {
+  @media (min-width: 995px) and (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: 995px) {
+    @content;
+  }
+}
+
+.pin {
+    position: absolute;
+    width: 16px;
+    height: 20px;
+
+    @include mobile {
+        display:none;
+    }
+
+    &.shanghai {
+        top: 116px;
+        right: 237px;
+    }
+
+    &.lagos {
+        top: 183px;
+        left: 457px;
+    }
+
+    &.beijing {
+        top: 87px;
+        right: 255px;
+    }
+
+    &.new-delhi {
+        top: 121px;
+        right: 344px;
+    }
+
+    &.mumbai {
+        top: 151px;
+        right: 351px;
+    }
+
+    &.new-york {
+        top: 93px;
+        left: 260px;
+    }
+
+    &.barcelona {
+        top: 83px;
+        left: 456px;
+    }
+
+    &.vancouver {
+        top: 60px;
+        left: 168px;
+    }
+
+    &.sydney {
+        top: 304px;
+        right: 163px;
+    }
+
+    &.los-angeles {
+        top: 105px;
+        left: 153px;
+    }
+
+    &.tokyo {
+        top: 100px;
+        right: 193px;
+    }
+
+    &.bogota {
+        top: 185px;
+        left: 250px;
+    }
+
+    &.hong-kong {
+        top: 139px;
+        right: 246px;
+    }
+
+    &.moscow {
+        top: 43px;
+        left: 540px;
+    }
+
+    &.johannesburg {
+        top: 283px;
+        left: 521px;
+    }
+
+    &.cairo {
+        top: 118px;
+        left: 529px;
+    }
+
+    &.paris {
+        top: 66px;
+        left: 456px;
+    }
+
+    &.sao-paulo {
+        top: 274px;
+        left: 327px;
+    }
+
+    &.istanbul {
+        top: 88px;
+        left: 519px;
+    }
+
+    &.london {
+        top: 53px;
+        left: 453px;
+    }
+
+    @include md {
+        &.shanghai {
+            top: 100px;
+            right: 166px;
+        }
+
+        &.lagos {
+            top: 162px;
+            left: 363px;
+        }
+
+        &.beijing {
+            top: 75px;
+            right: 183px;
+        }
+
+        &.new-delhi {
+            top: 104px;
+            right: 262px;
+        }
+
+        &.mumbai {
+            top: 128px;
+            right: 267px;
+        }
+
+        &.new-york {
+            top: 80px;
+            left: 186px;
+        }
+
+        &.barcelona {
+            top: 83px-12px;
+            left: 456px-95px;
+        }
+
+        &.vancouver {
+            top: 60px-12px;
+            left: 168px-66px;
+        }
+
+        &.sydney {
+            top: 269px;
+            right: 100px;
+        }
+
+        &.los-angeles {
+            top: 92px;
+            left: 92px;
+        }
+
+        &.tokyo {
+            top: 85px;
+            right: 126px;
+        }
+
+        &.bogota {
+            top: 162px;
+            left: 176px;
+        }
+
+        &.hong-kong {
+            top: 120px;
+            right: 173px;
+        }
+
+        &.moscow {
+            top: 33px;
+            left: 436px;
+        }
+
+        &.johannesburg {
+            top: 249px;
+            left: 418px;
+        }
+
+        &.cairo {
+            top: 104px;
+            left: 425px;
+        }
+
+        &.paris {
+            top: 66px-12px;
+            left: 456px-95px;
+        }
+
+        &.sao-paulo {
+            top: 240px;
+            left: 245px;
+        }
+
+        &.istanbul {
+            top: 77px;
+            left: 419px;
+        }
+
+        &.london {
+            top: 53px-12px;
+            left: 453px-95px;
+        }
+    }
+}//pin

@@ -1,10 +1,12 @@
 {
+  "private": true,
   "name": "pbooth",
   "version": "1.0.0",
   "description": "Auto print photo from Instagram Project",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prod": "gulp --production",
+    "dev": "gulp watch"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,10 @@
     "gulp-concat": "^2.6.0",
     "gulp-plumber": "^1.1.0",
     "gulp-sass": "^2.3.1",
-    "gulp-watch": "^4.3.6"
+    "gulp-watch": "^4.3.6",
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.0.0",
+    "laravel-elixir": "^5.0.0"
   }
 }
