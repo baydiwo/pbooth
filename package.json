@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/baydiwo/pbooth#readme",
   "dependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.1",
+    "gulp-watch": "^4.3.6"
   }
 }
